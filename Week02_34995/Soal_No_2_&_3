@@ -1,0 +1,20 @@
+Soal No 2
+
+Untuk kasus A dan B, hasil yang ditampilkan berupa program pesan bahwa program telah berhenti pada tampilan UI di hp tersebut. 
+Sedangkan diconsole menampilkan sebuah pesan error yaitu java.lang.NumberFormatException: empty String. Hal ini disebabkan 
+karena user menekan tombol operator namun kolom input pada UI tersebut terdapat yang belum diisi atau string kosong. 
+Sehingga sistem akan memberhentikan program karena menganggap apa yang dinput sama user tersebut tidak ada. 
+
+Solusi kasus A dan B:
+Diberikan NumberException sehingga jika terjadi error, maka akan memberikan bahkan dapat memanfaatkan pesan tersebut dengan 
+menampilkan nya ke UI bahwa terjadi sebuah kesalahan sistem atau memberikan pesan “Input tidak boleh kosong” sehingga aplikasi 
+tetap berjalan dan tidak berhenti.
+
+Solusi kasus C
+Sedangkan pada kasus ketiga, hasil yang ditampilkan yaitu ‘infinite’ pada bagian hasil pada UI. Hal ini dikarenakan tidak membuat 
+suatu kondisi (if) jika dibagi dengan 0. Solusinya sebenarnya merupakan sebuah pilihan yaitu memberikan kondisi if jika dibagi 
+dengan 0 memberikan suatu kondisi.
+
+Soal No 3
+Debugging dapat dilakukan dengan meletakkan breakpoint baris code tertentu. 
+Debugging akan membuat program terhenti dan tidak akan menampilkan hasil nya pada UI.
