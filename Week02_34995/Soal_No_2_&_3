@@ -16,5 +16,11 @@ suatu kondisi (if) jika dibagi dengan 0. Solusinya sebenarnya merupakan sebuah p
 dengan 0 memberikan suatu kondisi.
 
 Soal No 3
-Debugging dapat dilakukan dengan meletakkan breakpoint baris code tertentu. 
-Debugging akan membuat program terhenti dan tidak akan menampilkan hasil nya pada UI.
+Terdapat breakpoint pada baris:
+1. 'double operand2 = Double.parseDouble(angka2.getText().toString());'
+2. hitung(+)
+
+Sehingga bisa disimpulkan bahwa Debugging bisa digunakan untuk mengecek dimana 
+error itu berada dengan meletakkan breakpoint pada salah satu baris code seperti 
+kasus ketika memasukki 'double operand2 = Double.parseDouble(angka2.getText().toString());'
+ketika melakukan resuming maka program tidak dapat lanjut berjalan.
