@@ -1,0 +1,48 @@
+Nomor 1
+
+kali ini akan diterapkan penggunaan intent explisit dan implisit
+
+Pada tampilan pertama, terdapat textview dan button yang terdiri dari button kirim dan button browse. 
+
+Pada button kirim menerapkan Implisit Intent. Ketika user mengisi textview dan menekan button kirim,
+maka text yang diisi oleh user (mainActivity) akan terkirim ke activity yang lain (activity2) sambil
+melakukan perpindahan ke activity2 sehingga pada tampilan activity2 akan terlihat pesan yang dikirim 
+oleh user dari mainActvity begitu juga sebaliknya user dapat mengirim kembali pesan dari activity2 ke 
+mainActivity. Setelah itu melakukan perpindahan ke mainActivity dan hasilnya akan muncul di tampilan 
+mainActivity.
+
+Sedangkan pada button browse, ketika user telah mencantumkan link dan menekan button browse, maka akan
+segera melakukan perpindahan dari mainActivity ke activity pada aplikasi lain. bahkan text yang diisi
+oleh user juga akan dikirim ke activity pada aplikasi lain yang bisa mengerjakan text yang dikirim 
+oleh user tersebut.
+
+Kesimpulan:
+Dari percobaan diatas dapat disimpulkan bahwa, Intent merupakan suatu object yang berfungsi untuk berko-
+munikasi antara activity satu dengan activity yang lainnya. Atau lebih tepatnya berpindah halaman atau 
+activity lain namun selain berpindah juga dapat sambil memasing data ke activity lain. Intent memiliki 
+dua jenis yaitu Implisit Intent yang dapat berkomunikasi antar activity pada satu aplikasi dan Explisit 
+Intent yang dapat berkomunikasi dair activity1 ke activity yang berada di aplikasi lain. 
+
+Nomor 2
+
+Kali ini akan diterapkan penggunaan Fragment yang dimana terdapat dua cara penggunaan Fragment yaitu
+<Fragment> dan <Frame Layout>.
+
+<Fragment> diterapkan ketika user menekan tombol halaman pertama, maka akan intent ke SecondActivity dengan
+UI yaitu activity_second.xml yang memiliki dua fragment. Masing masing fragment memiliki UI tersendiri. 
+Penggunaannya sederhana dengan cukup memention android:name pada activity_second sesuai dengan fragment class 
+yang telah dibuat.
+
+<Frame Layout> diterapkan ketika user menekan tombol halaman kedua, maka akan intent ke ThirdActivity dengan
+UI yaitu activity_third.xml yang juga memiliki dua fragment. Bedanya penggunaan <Frame Layout> menggunakan
+transaction.replace() sehingga kita dapat mengganti fragment berdasarkan id pada file xml jadi id nya akan
+diisi dengan class Fragment yang telah dibuat yang telah dihubungkan dengan fragment.xml tersebut.
+
+Kesimpulan:
+Dari percobaan diatas dapat disimpulkan bahwa, Fragment merupakan komponen yang berisi potongan UI yang nantinya
+dapat ditempel pada xml yang akan dipakai dan Fragment bersifat reusable, dapat digunakan berkali kali sehingga
+tidak perlu mengkode 2 UI yang sama namun cukup membuat Fragment dan menggunakan nya berkali kali di setiap xml 
+yang berbeda dengan cara <Fragment> yaitu memention class Fragment pada xml atau <Fragment Layout> yaitu penggunaan
+transaction.replace() pada suatu class. 
+
+
