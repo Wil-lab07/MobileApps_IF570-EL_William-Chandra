@@ -1,0 +1,11 @@
+Pada pengerjaan ini, telah diterapkan komponen RecyclerView dan pembahasan hasil pengerjaan sebagai berikut:
+1. Pada saat app dijalankan, terdapat list yang ditampilkan sebanyak 20 kata.
+2. Ketika diklik maka akan memunculkan kata 'telah diklik' dan tentu akan muncul lebih dari satu jika user 
+   mengklik sebanyak lebih dari satu kali sesuai dengan berapa kali user mengkliknya.
+3. User juga dapat menambah jumlah kata dengan mengklik komponen tambah yang ada di pojok kanan bawah.
+4. Ketika user telah mengklik maka kata akan ditambahkan dan memiliki tulisan tambahan yaitu 'telah ditambahkan'
+
+Kesimpulan:
+Dari pengerjaan tersebut dapat disimpulkan bahwa, RecyclerView merupakan sebuah komponen yang menampilkan list seperti
+ViewGroup namun data yang ditampilkan berupa array sehingga bisa dikatakan cara kerja RecyclerView dalam membaca dan 
+menampilkan kebentuk list seperti menggunakan for statement. 
