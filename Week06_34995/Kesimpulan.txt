@@ -1,0 +1,20 @@
+Pada pengerjaan ini, dirancang aplikasi yang dapat menampilkan animasi ketika mengklik sebuah layar. 
+Pada pengerjaan tersebut terbagi menjadi 3 projek.
+
+Pada projek pertama, membuat animasi pada object berbentuk lingkaran dengan warna hijau. Ketika user 
+mengklik layar pada device, maka lingkaran berwarna hijau akan muncul dan seketika membesar dan berubah
+warna dari hijau menjadi biru gelap. 
+
+Pada projek kedua, membuat animasi pada kumpulan gambar kuda. kumpulan gambar kuda ini nantinya akan 
+membentuk sebuah animasi Gif.
+
+Pada projek ketiga, membuat animasi pada object dengan fungsi yang tersedia pada android yaitu Fling
+dan Spring.
+
+Kesimpulan:
+Pengerjaan pada ketiga project tersebut, tidak ada kendala dan berjalan dengan lancar. Tiap project juga
+dapat menjalankan animasi dengan baik. Kesimpulan pada pengerjaan ini ialah pada android studio dapat
+membuat animasi dengan tiga cara yaitu touch, gif pada kumpulan gambar, dan juga menggunakan fungsi
+yang tersedia pada android seperti Spring dan Fling.
+
+
