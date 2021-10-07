@@ -1,0 +1,19 @@
+Pada pengerjaan kali ini terdapat dua proyek yaitu membuat fitur pengambilan
+foto, video dan membuat galeri video. 
+
+Fitur pengambilan gambar dan video menggunakan komponen intent implisit dikarenakan 
+menggunakan kamera dan video yang berasal dari fitur aplikasi lain yaitu fitur native
+dari smartphone. 
+
+Fitur galeri video ditampilkan berupa RecyclerView dengan custom layout.
+
+Kesimpulan:
+Dari pengerjaan tersebut dapat disimpulkan bahwa pengerjaan ini mengimplementasikan
+intent implisit dan recyclerview. Pada pengerjaan pertama, pengambilan gambar dan video
+lancar tetapi video tidak bisa ditampilkan. Pada pengerjaan kedua, galeri video dapat
+ditampilkan namun ketika ingin memutar video tersebut terjadi error yang membuat aplikasi
+terhenti. Sehingga hasil pengerjaan ini tidak sepenuhnya lancar.
+
+
+
+
