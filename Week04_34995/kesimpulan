@@ -20,7 +20,7 @@ Kesimpulan:
 Dari percobaan diatas dapat disimpulkan bahwa, Intent merupakan suatu object yang berfungsi untuk berko-
 munikasi antara activity satu dengan activity yang lainnya. Atau lebih tepatnya berpindah halaman atau 
 activity lain namun selain berpindah juga dapat sambil memasing data ke activity lain. Intent memiliki 
-dua jenis yaitu Implisit Intent yang dapat berkomunikasi antar activity pada satu aplikasi dan Explisit 
+dua jenis yaitu Eksplisit Intent yang dapat berkomunikasi antar activity pada satu aplikasi dan Implisit 
 Intent yang dapat berkomunikasi dair activity1 ke activity yang berada di aplikasi lain. 
 
 Nomor 2
